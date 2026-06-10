@@ -2,7 +2,7 @@
 <html lang='pt-br'>
 <head>
     <meta charset='UTF-8'>
-    <title>Hello or oi :D</title>
+    <title>Good:D</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
@@ -10,11 +10,5 @@
     <script src="javamincecraft-jk;P"></script>
 </head>
 <body>
-    <h1> How are you doing? :D </h1>  
-    <svg width="100%" height="400">
-    <line x1="100" y1="-10" x2="100" y2="400" stroke="#F5DB38" stroke-width="10" stroke-linecap="round"/>
-    </svg>
-    <button class="botao-good">YESYESYES >:D</button>
-    <button class="botao-bad">No :&#40;</button>
+    <h1> That's bad, bc the site isnt too ;-;, hes being constructed :P</h1>  
 </body>
-

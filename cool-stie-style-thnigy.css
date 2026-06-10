@@ -9,3 +9,8 @@ h1 {
     text-align: center;
     margin-top: 400px;
 }
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
