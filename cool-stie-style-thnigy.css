@@ -18,6 +18,9 @@ svg {
     z-index: 0;
 }
 button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     position: relative;
     z-index: 1;
 }
