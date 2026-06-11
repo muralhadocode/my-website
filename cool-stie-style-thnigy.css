@@ -25,15 +25,30 @@ button {
     z-index: 1;
 }
 button {
-    background: #0e660b;
-    border: 2px solid #0e660b;
+    background: #408f37;
+    border: 2px solid #397a32;
     color: #000000;
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 100px;
     font-family: "Kode Mono", monospace;
-    font-size: 16px;
+    font-size: 28px;
     cursor: pointer;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-width: 5px;
+}
+.botao-good {
+    margin-top: 50px;
+    margin-left: 450px;
+    position: absolute;
+}
+.botao-bad {
+    margin-top: 50px;
+    margin-left: 900px;
+    position: absolute;
 }
 a {
     text-decoration: none;
