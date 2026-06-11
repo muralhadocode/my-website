@@ -17,18 +17,17 @@ svg {
     left: 0;
     z-index: 0;
 }
-nav {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    position: relative;
-    z-index: 1;
-}
-
 nav a {
-    color: #f5da2d;
-    text-decoration: none;
+    position: relative;
+    display: flex;
+    background: #3dd6cf;
+    color: #2d9792;
     font-family: "Kode Mono", monospace;
-    border: 2px solid #F5DB38;
-    padding: 10px 20px;
+    border: 5px solid #39c5be;
+    z-index: 1;
+    text-decoration: none;
+    padding: 30px 30px;
+    margin: 35px 610px;
+    font-size: 20px;
+    justify-content: center;
 }
