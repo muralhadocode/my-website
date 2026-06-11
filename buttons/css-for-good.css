@@ -3,7 +3,17 @@ body {
 }
 h1 {
     font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
     font-weight: 400;
+    font-style: normal;
     text-align: center;
     margin-top: 400px;
+    position: relative;
+    z-index: 1;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
