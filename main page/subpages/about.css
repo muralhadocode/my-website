@@ -3,12 +3,13 @@ body {
 }
 .aboutme-txt {
     font-family: "Kode Mono", monospace;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     text-align: center;
     padding: 20px;
     margin: 0;
     color: #000000;
+    font-size: 30px;
 }
 svg {
     position: absolute;
@@ -44,7 +45,4 @@ nav {
     position: relative;
     z-index: 1;
     font-family: "Kode Mono", monospace;
-    font-size: 17px;
-    font-weight: 300;
-    padding: 15px;
 }
