@@ -6,7 +6,7 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     margin: 0;
     color: #000000;
 }
@@ -43,4 +43,8 @@ nav {
     margin-left: 157px;
     position: relative;
     z-index: 1;
+    font-family: "Kode Mono", monospace;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 15px;
 }
