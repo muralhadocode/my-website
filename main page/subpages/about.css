@@ -3,14 +3,13 @@ body {
 }
 .aboutme-txt {
     font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    position: relative;
-    z-index: 1;
+    padding: 50px;
+    margin: 0;
+    color: #000000;
 }
-
 svg {
     position: absolute;
     top: 0;
@@ -18,13 +17,14 @@ svg {
     z-index: 0;
 }
 nav a {
-   background: #3dd6cf;
-    color: #2d9792;
+    background: #3dd6cf;
+    color: #000000;
     font-family: "Kode Mono", monospace;
     border: 5px solid #39c5be;
     text-decoration: none;
     padding: 15px 25px; 
     font-size: 20px;
+    font-weight: 700;
 }
 nav {
     display: flex;
@@ -34,25 +34,13 @@ nav {
     position: relative;
     z-index: 1;
 } 
-h1 {
-    font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    margin-top: 400px;
-    margin-left: 50px;
-    position: relative;
-    z-index: 1;
-}
 .aboutme-box {
     width: 1226px;
-    height: 600px;
+    height: auto;
     background-color: #3dd6cf;
     border: 5px solid #39c5be;
     margin-top: 25px;
     margin-left: 157px;
     position: relative;
     z-index: 1;
-    
 }
