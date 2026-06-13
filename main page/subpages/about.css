@@ -46,6 +46,8 @@ h1 {
     z-index: 1;
 }
 .aboutme-box {
-    width: 1000;
-    height: 300;
+    width: 1000px;
+    height: 300px;
+    background-color: #3dd6cf;
+    border: 5px solid #39c5be;
 }
