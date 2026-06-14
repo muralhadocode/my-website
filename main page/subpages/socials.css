@@ -19,7 +19,7 @@ svg {
 }
 nav a {
    background: #3dd6cf;
-    color: #2d9792;
+    color: #000000;
     font-family: "Kode Mono", monospace;
     border: 5px solid #39c5be;
     text-decoration: none;
@@ -41,7 +41,29 @@ h1 {
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    margin-top: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 1;
+}
+p {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 1;
+}
+a {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
     margin-left: 50px;
     position: relative;
     z-index: 1;
