@@ -19,7 +19,7 @@ svg {
 }
 nav a {
    background: #3dd6cf;
-    color: #000000;
+    color: #2d9792;
     font-family: "Kode Mono", monospace;
     border: 5px solid #39c5be;
     text-decoration: none;
@@ -46,25 +46,21 @@ h1 {
     position: relative;
     z-index: 1;
 }
-p {
-    font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 50px;
+
+.socials-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
     position: relative;
     z-index: 1;
+    margin: 20px 0;
 }
-a {
+
+.socials-list a,
+.socials-list p {
+    font-size: 28px;
     font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 50px;
-    position: relative;
-    z-index: 1;
+    color: #000000;
+    margin: 0;
 }
