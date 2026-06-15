@@ -18,12 +18,12 @@ svg {
     z-index: 0;
 }
 nav a {
-   background: #3dd6cf;
+    background: #3dd6cf;
     color: #000000;
     font-family: "Kode Mono", monospace;
     border: 5px solid #39c5be;
     text-decoration: none;
-    padding: 15px 25px; 
+    padding: 15px 25px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -43,6 +43,22 @@ h1 {
     text-align: center;
     margin-top: 400px;
     margin-left: 50px;
+    position: relative;
+    z-index: 1;
+}
+.projpage {
+    background: #3dd6cf;
+    color: #000000;
+    font-family: "Kode Mono", monospace;
+    border: 5px solid #39c5be;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
     position: relative;
     z-index: 1;
 }
