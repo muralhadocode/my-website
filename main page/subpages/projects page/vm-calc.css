@@ -42,3 +42,14 @@ svg {
     z-index: 1;
     color: #000000;
 }
+.box-thingy {
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+    color: #000000;
+    background-color: #3dd6cf;
+    border: 6px, #39c5be;
+    padding: 50px 200px;
+}
