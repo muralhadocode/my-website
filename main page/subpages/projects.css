@@ -1,13 +1,6 @@
-body {
-    background-color: #49A140;
-}
+body { background-color: #49A140; }
 
-svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
+svg { position: absolute; top: 0; left: 0; z-index: 0; }
 
 .nav-bar {
     display: flex;
@@ -17,7 +10,6 @@ svg {
     position: relative;
     z-index: 1;
 }
-
 .nav-bar a {
     background: #3dd6cf;
     color: #000000;
@@ -28,10 +20,7 @@ svg {
     font-size: 20px;
     font-weight: 700;
 }
-
-.nav-bar a:hover {
-    background: #39c5be;
-}
+.nav-bar a:hover { background: #39c5be; }
 
 .proj-grid {
     display: grid;
@@ -43,18 +32,41 @@ svg {
 }
 
 .proj-card {
-    background: #3dd6cf;
-    border: 5px solid #39c5be;
-    font-family: "Kode Mono", monospace;
-    font-weight: 700;
-    text-align: center;
-    padding: 30px 15px;
-    font-size: 18px;
+    background: #2a2a2a;
+    border: 2px solid #3a3a3a;
+    border-radius: 8px;
+    overflow: hidden;
     text-decoration: none;
-    color: #000000;
     display: block;
 }
+.proj-card:hover { border-color: #3dd6cf; }
 
-.proj-card:hover {
-    background: #39c5be;
+.proj-img {
+    width: 100%;
+    height: 160px;
+    background: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kode Mono", monospace;
+    font-size: 14px;
+    color: #555;
+}
+
+.proj-info { padding: 14px 16px 20px; }
+
+.proj-title {
+    font-family: "Kode Mono", monospace;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3dd6cf;
+    margin: 0 0 8px;
+}
+
+.proj-desc {
+    font-family: "Kode Mono", monospace;
+    font-size: 13px;
+    color: #aaaaaa;
+    margin: 0;
+    line-height: 1.5;
 }
