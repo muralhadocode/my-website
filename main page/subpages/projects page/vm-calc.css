@@ -51,5 +51,9 @@ svg {
     color: #000000;
     background-color: #3dd6cf;
     border: 6px, solid, #39c5be;
-    padding: 50px 200px;
+    padding: 30px 200px;
+}
+img {
+    width: 500px;
+    margin-left: 300px
 }
