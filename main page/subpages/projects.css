@@ -59,19 +59,7 @@ svg {
     height: 160px;
     background: #3a3a3a;
     object-fit: cover;
-    display: block;
-}
-
-.proj-img-placeholder {
-    width: 100%;
-    height: 160px;
-    background: #3a3a3a;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Kode Mono", monospace;
-    font-size: 13px;
-    color: #555555;
 }
 
 .proj-info {
