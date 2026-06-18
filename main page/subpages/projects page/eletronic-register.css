@@ -52,5 +52,8 @@ svg {
     margin-top: 60px;
     border: 6px, solid, #39c5be;
     background: #3dd6cf;
-    padding: 40px, 200px;
+    padding: 40px 200px;
+}
+img {
+    margin-left: 250px;
 }
