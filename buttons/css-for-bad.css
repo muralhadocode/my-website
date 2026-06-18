@@ -38,6 +38,9 @@ button {
 }
 .botao-back {
     margin-top: 50px;
-    margin-left: 600px;
-    position: absolute;
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
