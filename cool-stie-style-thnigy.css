@@ -42,15 +42,22 @@ button {
 }
 .botao-good {
     margin-top: 50px;
-    margin-left: 450px;
-    position: absolute;
 }
 .botao-bad {
     margin-top: 50px;
-    margin-left: 900px;
-    position: absolute;
 }
 a {
     text-decoration: none;
     text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.botao-good, .botao-bad {
 }
