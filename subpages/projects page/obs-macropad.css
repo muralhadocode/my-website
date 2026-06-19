@@ -33,7 +33,7 @@ svg {
     background: #39c5be;
 }
 
-.page-title {
+.box-title {
     font-family: "Kode Mono", monospace;
     font-weight: 700;
     text-align: center;
@@ -55,5 +55,5 @@ svg {
 }
 img {
     width: 500px;
-    margin-left: 300px
+    margin-left: 500px
 }

@@ -42,3 +42,8 @@ svg {
     z-index: 1;
     color: #000000;
 }
+
+img {
+    width: 500px;
+    margin-left: 500px
+}
