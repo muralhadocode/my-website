@@ -35,7 +35,7 @@ svg {
     background: #39c5be;
 }
 
-.page-title {
+.box-title {
     font-family: "Kode Mono", monospace;
     font-weight: 700;
     text-align: center;
@@ -43,4 +43,26 @@ svg {
     position: relative;
     z-index: 1;
     color: #000000;
+}
+
+.box-content {
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+    color: #000000;
+}
+
+img
+
+div {
+    background: #3dd6cf;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 60px;
+    border: 6px, solid, #39c5be;
 }
