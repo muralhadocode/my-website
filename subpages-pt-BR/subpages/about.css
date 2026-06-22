@@ -1,0 +1,54 @@
+body {
+    background-color: #49A140;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-bar a {
+    background: #3dd6cf;
+    color: #000000;
+    font-family: "Kode Mono", monospace;
+    border: 5px solid #39c5be;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-bar a:hover {
+    background: #39c5be;
+}
+
+.aboutme-box {
+    width: 1226px;
+    height: auto;
+    background-color: #3dd6cf;
+    border: 5px solid #39c5be;
+    margin: 25px auto 0;
+    position: relative;
+    z-index: 1;
+}
+
+.aboutme-txt {
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: #000000;
+    font-size: 30px;
+}
