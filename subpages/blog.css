@@ -55,7 +55,7 @@ svg {
     color: #000000;
 }
 
-img
+img,
 
 div {
     background: #3dd6cf;
@@ -64,5 +64,8 @@ div {
     position: relative;
     z-index: 1;
     margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0px 30px 10px 30px;
     border: 6px, solid, #39c5be;
 }
