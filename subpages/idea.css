@@ -44,3 +44,18 @@ svg {
     z-index: 1;
     color: #000000;
 }
+
+.translation-button {
+    position: fixed;
+    z-index: 1;
+    color: #000000;
+    margin-top: 570px;
+    padding: 10px 10px;
+    font-size: 15px;
+    background: #3dd6cf;
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    border: 5px solid #39c5be;
+}
