@@ -59,3 +59,21 @@ svg {
 img {
     margin-left: 500px;
 }
+
+.translation-button {
+    position: fixed;
+    z-index: 1;
+    color: #000000;
+    margin-top: 0px;
+    padding: 10px 10px;
+    font-size: 10px;
+    background: #3dd6cf;
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    border: 5px solid #39c5be;
+    bottom: 20px;
+    left: 20px;
+    text-align: center;
+}
