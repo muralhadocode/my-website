@@ -76,8 +76,8 @@ div {
     position: relative;
     z-index: 1;
     margin-top: 60px;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-left: 100px;
+    margin-right: 150px;
     padding: 0px 30px 10px 30px;
     border: 6px, solid, #39c5be;
 }
