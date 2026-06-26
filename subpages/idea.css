@@ -47,7 +47,7 @@ svg {
 
 .translation-button {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     color: #000000;
     margin-top: 0px;
     padding: 10px 10px;
@@ -140,6 +140,20 @@ svg {
     resize: vertical;
     overflow-y: auto;
     overflow-x: hidden;
-    width: calc(100% - 35px); /* compensa o margin-left */
+    width: calc(100% - 35px);
     box-sizing: border-box;
+}
+
+.send-button {
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+    border: 3px solid #39c5be;
+    background: #3dd6cf;
+    padding: 10px 15px 10px 20px;
+    margin-left: 35px;
+    margin-top: 20px;
 }
