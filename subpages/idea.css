@@ -95,7 +95,7 @@ svg {
 
 .name-input {
     color: #000000;
-    text-align-last: center;
+    text-align-last: left;
     font-weight: 500;
     font-size: 15px;
     font-family: "Kode Mono", monospace;
@@ -126,7 +126,7 @@ svg {
 
 .idea-box {
     color: #000000;
-    text-align-last: center;
+    text-align: left;
     font-weight: 500;
     font-size: 15px;
     font-family: "Kode Mono", monospace;
@@ -134,7 +134,13 @@ svg {
     border: 3px solid #39c5be;
     background: #28d1c9;
     margin-left: 35px;
-    width: 1215px;
     height: 200px;
+    overflow-wrap: break-word;
+    width: 100%;          /* troca o 1215px por isso */
+    word-break: break-word;
+    white-space: pre-wrap;
+    resize: vertical;     /* deixa o usuário redimensionar só pra baixo */
+    overflow-y: auto;     /* scroll vertical quando encher */
+    overflow-x: hidden;   /* esconde scroll horizontal */
 
 }
