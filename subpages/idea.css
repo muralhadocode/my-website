@@ -62,3 +62,55 @@ svg {
     left: 20px;
     text-align: center;
 }
+
+.box {
+    position: relative;
+    z-index: 1;
+    color: #000000;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #3dd6cf;
+    border: 5px solid #39c5be;
+    padding: 30px 20px 30px 20px;
+}
+
+.box-title {
+    color: #000000;
+    text-align-last: center;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+}
+
+.content-form {
+    color: #000000;
+    text-align-last: center;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+}
+
+.name-input {
+    color: #000000;
+    text-align-last: center;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+    border: 3px solid #39c5be;
+    background: #28d1c9;
+}
+
+.country-select {
+    color: #000000;
+    text-align-last: center;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+    border: 3px solid #39c5be;
+    background: #28d1c9;
+}
