@@ -136,11 +136,10 @@ svg {
     margin-left: 35px;
     height: 200px;
     overflow-wrap: break-word;
-    width: 100%;          /* troca o 1215px por isso */
     word-break: break-word;
-    white-space: pre-wrap;
-    resize: vertical;     /* deixa o usuário redimensionar só pra baixo */
-    overflow-y: auto;     /* scroll vertical quando encher */
-    overflow-x: hidden;   /* esconde scroll horizontal */
-
+    resize: vertical;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: calc(100% - 35px); /* compensa o margin-left */
+    box-sizing: border-box;
 }
