@@ -47,7 +47,7 @@ svg {
 
 .translation-button {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     color: #000000;
     margin-top: 0px;
     padding: 10px 10px;
@@ -61,4 +61,99 @@ svg {
     bottom: 20px;
     left: 20px;
     text-align: center;
+}
+
+.box {
+    position: relative;
+    z-index: 1;
+    color: #000000;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #3dd6cf;
+    border: 5px solid #39c5be;
+    padding: 30px 20px 30px 20px;
+}
+
+.box-title {
+    color: #000000;
+    text-align-last: center;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+}
+
+.content-form {
+    color: #000000;
+    text-align-last: center;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+}
+
+.name-input {
+    color: #000000;
+    text-align-last: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+    border: 3px solid #39c5be;
+    background: #28d1c9;
+}
+
+.country-select {
+    color: #000000;
+    text-align-last: center;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+    border: 3px solid #39c5be;
+    background: #28d1c9;
+}
+
+.idea-input {
+    color: #000000;
+    text-align-last: center;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+}
+
+.idea-box {
+    color: #000000;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+    border: 3px solid #39c5be;
+    background: #28d1c9;
+    margin-left: 35px;
+    height: 200px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    resize: vertical;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: calc(100% - 35px);
+    box-sizing: border-box;
+}
+
+.send-button {
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Kode Mono", monospace;
+    font-style: normal;
+    border: 3px solid #39c5be;
+    background: #3dd6cf;
+    padding: 10px 15px 10px 20px;
+    margin-left: 35px;
+    margin-top: 20px;
 }
