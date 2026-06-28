@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='idea-pt-BR.css'>
-    <script src="../../javamincecraft-jk"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -45,7 +44,7 @@
 <div class="box">
   <h1 class="box-title">Digite seu nome, seu país e descreva a sua idéia, pode ser uma idéia para o site, para os meus vídeos ou para um projeto, pode ser uma sugestão também :D</h1>
   <form>
-    <p class="content-form">Seu nome: <input class="name-input" type="text"> Seu país: <select class="country-select">
+    <p class="content-form">Seu nome: <input class="name-input" type="text" id="name"> Seu país: <select class="country-select" id="country">
       <option value="">-- Selecione --</option>
       <option value="AF">Afeganistão</option>
       <option value="AL">Albânia</option>
@@ -242,9 +241,10 @@
       <option value="ZW">Zimbábue</option>
     </select></p>
     <p class="idea-input">Descreva a sua idéia logo aqui em baixo:</p><br>
-    <textarea class="idea-box" maxlength="2000"></textarea>
-    <button class="send-button">Enviar</button>
+    <textarea class="idea-box" maxlength="2000" id="txt-idea"></textarea>
+    <button class="send-button" id="btn-send">Enviar</button>
   </form>
 </div>
 </body>
+<script src="../../subpages/javamincecraft-jk.js"></script>
 </html>
