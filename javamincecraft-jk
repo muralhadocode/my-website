@@ -9,4 +9,7 @@ const firebaseConfig = {
   measurementId: "G-LH6TYGHYNF"
 };
 
-const country = document.getElementById("btn-send")
+const btn_send = document.getElementById("btn-send");
+btn_send.addEventListener("click", function() {
+    const country = document.getElementById("country");
+});
