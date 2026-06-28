@@ -29,6 +29,7 @@ btn_send.addEventListener("click", async function() {
 
   alert("Idea sent!");
 });
+
 btn_send.addEventListener("click", async function() {
   const country = document.getElementById("country").value;
   const name = document.getElementById("name").value;
