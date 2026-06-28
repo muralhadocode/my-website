@@ -29,3 +29,23 @@ btn_send.addEventListener("click", async function() {
 
   alert("Idea sent!");
 });
+btn_send.addEventListener("click", async function() {
+  const country = document.getElementById("country").value;
+  const name = document.getElementById("name").value;
+  const desc_idea = document.getElementById("txt-idea").value;
+
+  console.log("tentando enviar:", country, name, desc_idea);
+
+  try {
+    await addDoc(collection(db, "ideas"), {
+      country: country,
+      name: name,
+      desc_idea: desc_idea,
+      date: new Date()
+    });
+    console.log("enviado com sucesso!");
+    alert("Idea sent!");
+  } catch (erro) {
+    console.log("erro ao enviar:", erro);
+  }
+});
