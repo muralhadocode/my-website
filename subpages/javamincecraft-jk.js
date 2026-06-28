@@ -17,6 +17,7 @@ const db = getFirestore(app);
 const btn_send = document.getElementById("btn-send");
 btn_send.addEventListener("click", async function() {
   event.preventDefault();
+  
   const country = document.getElementById("country").value;
   const name = document.getElementById("name").value;
   const desc_idea = document.getElementById("txt-idea").value;
