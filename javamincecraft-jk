@@ -11,5 +11,7 @@ const firebaseConfig = {
 
 const btn_send = document.getElementById("btn-send");
 btn_send.addEventListener("click", function() {
-    const country = document.getElementById("country");
+    const country = document.getElementById("country").value;
+    const name = document.getElementById("name").value;
+    const desc_idea = document.getElementById("txt-idea").value;
 });
