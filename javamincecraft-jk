@@ -1,4 +1,6 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import { collection, addDoc } from "firebase/firestore";
+
 const firebaseConfig = {
   apiKey: "AIzaSyD4C9tBuI64pE3PlAYIGnQSSXHvi3aXXYo",
   authDomain: "idea-websitepart.firebaseapp.com",
@@ -10,8 +12,15 @@ const firebaseConfig = {
 };
 
 const btn_send = document.getElementById("btn-send");
-btn_send.addEventListener("click", function() {
+btn_send.addEventListener("click", async function() {
     const country = document.getElementById("country").value;
     const name = document.getElementById("name").value;
     const desc_idea = document.getElementById("txt-idea").value;
+
+    await addDoc(collection(db, "ideas")), {
+    country: country,
+    name: name,
+    date: new Date()
+};
+    alert("Idea sent")
 });
